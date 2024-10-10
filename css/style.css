@@ -1,0 +1,94 @@
+/*general css*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 14.35px;
+    font-family:segoe;
+}
+.ctekstmain{
+    color: #909090;
+}
+.cbgmain{
+    background: #909090;
+}
+.ctekstblue{
+    color: #5094f2;
+}
+.cbgbleu{
+    background: #5094f2;
+}
+/*FONTS*/
+@font-face {
+    font-family: myriad;
+    src: url("../webfonts/MYRIADPRO-REGULAR.woff");
+}
+@font-face {
+    font-family: segoe;
+    src: url("../webfonts/SegoeWPN.woff");
+}
+
+/*POSITIONING CSS*/
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-evenly{
+    justify-content:space-evenly;
+}
+.justify-content-around{
+    justify-content:space-around;
+}
+.align-items-center{
+    align-items:center;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.text-center{
+    text-align:center;
+}
+h2{
+    font-size: 42.35px;
+    font-family: myriad;
+}
+h3{
+    font-size: 20.35px;
+    color: #5094f2;
+}
+.latestnewsp{
+    width: 248px;
+}
+.latestnewsmargin{
+    margin: 30px 0px;
+}
+#pencil, #basket, #pc{
+    border-radius: 50%;
+}
+#pencil{
+    background: #5094f2;
+}
+#basket{
+    background: #ebbb11;
+    border-radius: 50%;
+}
+#pc{
+    background: #d94748;
+}
